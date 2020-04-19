@@ -70,7 +70,7 @@ function game() {
     let computerWins = 0;
 
     while (playerWins < 3 && computerWins < 3) {
-        const playerSelection = prompt("Please enter your move");
+        const playerMove = prompt("Please enter your move");
         // const playerMove = playerPlay();
         // here in case we need to test in VSC (prompt() not supported in node.js)
         const computerMove = computerPlay();
